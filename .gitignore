@@ -1,0 +1,55 @@
+# ============================================================
+# .gitignore - Proyecto 911 CDMX
+# Mantiene el repositorio limpio para GitHub Pages y Shiny Apps
+# ============================================================
+
+# Historial y sesión local de R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Credenciales y secretos locales
+.Renviron
+.Rprofile
+.env
+*.key
+*.pem
+*.token
+secrets/
+rsconnect/
+
+# Respaldos, temporales y comprimidos
+*.bak
+*.bak_*
+*.tmp
+*.log
+*.zip
+*.tar.gz
+*.7z
+
+# Salidas intermedias pesadas o regenerables
+salidas_911_eda_*/
+*_backup/
+*_old/
+legacy/
+_legacy/
+_legacy_no_usar/
+
+# Datasets originales o insumos crudos locales
+data_raw/
+raw/
+input/
+inputs/
+originales/
+datos_originales/
+datasets_originales/
+
+# Archivos específicos históricos/no activos
+crear_index_rmd_911_old.R
+Apps.zip
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
