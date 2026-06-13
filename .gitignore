@@ -25,6 +25,8 @@ rsconnect/
 *.tmp
 *.log
 *.zip
+publicar_github_911_filtrado*.R
+README_publicar_github_911_filtrado*.md
 *.tar.gz
 *.7z
 
@@ -48,6 +50,9 @@ datasets_originales/
 # Archivos específicos históricos/no activos
 crear_index_rmd_911_old.R
 Apps.zip
+llamadas_911_*.csv
+diccionario-de-datos*.csv
+dashboard_911/README.md
 
 # Archivos de sistema
 .DS_Store
